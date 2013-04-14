@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>tumblerSlideViewer</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="tumblerSlideViewer.js"></script>
+	<style>
+		#tumblr {
+			position: relative;
+			width: 250px;
+			height: 250px;
+			overflow: hidden;
+		}
+	</style>
+	<script type="text/javascript">
+		$(function(){
+			$(document.body).tumblerSlideViewer({url: "url"});
+		})
+	</script>
+</head>
+<body>
+	<div id="tumblr"></div>
+</body>
+</html>
